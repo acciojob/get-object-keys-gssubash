@@ -3,8 +3,8 @@ const student = {
 	name:'subash'
 };
 
-Object.protorype.getKeys = function () {
-	return this.keys();
+Object.prototype.getKeys = function () {
+	return Object.keys(this);
 }
 
-student.getKeys();
+student.getKeys(); 
