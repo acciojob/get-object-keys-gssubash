@@ -1,10 +1,10 @@
 //your JS code here. If required.
 const student = {
-	name:'subash'
+	name:'subash',
+	fun(){
+	return Object.keys(this);
+	}
 };
 
-Object.prototype.getKeys = function () {
-	return Object.keys(this);
-}
 
-student.getKeys(); 
+student.fun();
